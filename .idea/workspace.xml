@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="df343939-eeea-462c-8cd4-90e48bd78c18" name="Changes" comment="1 ta  qilindi :)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/Admin_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Admin_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/Club_cards.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Club_cards.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/Contactedit.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Contactedit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/Contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Contacts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/ContactsaAbout.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ContactsaAbout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/Email_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Email_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/NewTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/NewTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/about_company.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/about_company.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/about_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/about_edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/about_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/about_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/advance-table.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/advance-table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/auth-login.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/auth-login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/auth-register.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/auth-register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/banner_create.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/banner_create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/banner_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/banner_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/brand_create.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/brand_create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/brend_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/brend_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/club_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/club_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/create_sport.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/create_sport.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/create_triner.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/create_triner.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/edit_sport.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/edit_sport.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/edit_triner.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/edit_triner.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/faq_create.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/faq_create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/faq_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/faq_edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/faq_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/faq_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/menu_create.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/menu_create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/menu_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/menu_edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/menu_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/menu_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/modul_create.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/modul_create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/modul_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/modul_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/newEdit.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/newEdit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/new_create.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/new_create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/php/signin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/php/signin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/php/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/php/signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/php/sportUpdate.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/php/sportUpdate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/php/sportcreate.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/php/sportcreate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/php/subscribe_create.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/php/subscribe_create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/php/trainerEdit.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/php/trainerEdit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/php/trainercreate.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/php/trainercreate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/php/trainerdelete.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/php/trainerdelete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/portfolio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/program_create.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/program_create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/program_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/program_edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/progrms_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/progrms_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/settinges.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/settinges.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/settings_Edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/settings_Edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/settings_create.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/settings_create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/trainers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/trainers_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/update_sport.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/update_sport.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/trainer.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BEsbNuNGCymjuV04WJPCxAsRVn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;SQL-Insert-Statements.sql.groovy&quot;,
+    &quot;import_schema_mapping&quot;: &quot;&lt;schema-mapping&gt;&lt;databases&gt;&lt;list&gt;&lt;schema-mapping-item&gt;&lt;source-data-source-id&gt;ccfe46ca-640b-4840-ba5d-86162c80ee77&lt;/source-data-source-id&gt;&lt;source-path&gt;schema/\&quot;fitness\&quot;&lt;/source-path&gt;&lt;target-data-source-id&gt;ccfe46ca-640b-4840-ba5d-86162c80ee77&lt;/target-data-source-id&gt;&lt;target-path&gt;schema/\&quot;fitness\&quot;&lt;/target-path&gt;&lt;/schema-mapping-item&gt;&lt;/list&gt;&lt;/databases&gt;&lt;/schema-mapping&gt;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/o'yin/image&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df343939-eeea-462c-8cd4-90e48bd78c18" name="Changes" comment="" />
+      <created>1656482674229</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656482674229</updated>
+      <workItem from="1656482679613" duration="14976000" />
+      <workItem from="1656560027875" duration="28405000" />
+      <workItem from="1656596845486" duration="3656000" />
+      <workItem from="1656608655055" duration="2498000" />
+      <workItem from="1656611289498" duration="3405000" />
+      <workItem from="1656614857827" duration="176000" />
+      <workItem from="1656648926886" duration="18276000" />
+      <workItem from="1656677275067" duration="3214000" />
+      <workItem from="1656740597939" duration="18686000" />
+      <workItem from="1656788638155" duration="144000" />
+      <workItem from="1656817457860" duration="1461000" />
+      <workItem from="1656825699795" duration="14716000" />
+      <workItem from="1656950786971" duration="875000" />
+      <workItem from="1657024211624" duration="6994000" />
+      <workItem from="1657078421047" duration="10796000" />
+      <workItem from="1657129075369" duration="4165000" />
+      <workItem from="1657179739253" duration="15791000" />
+      <workItem from="1657434615243" duration="2202000" />
+      <workItem from="1657437159889" duration="16965000" />
+      <workItem from="1657513417844" duration="18377000" />
+    </task>
+    <task id="LOCAL-00001" summary="Admin panel qisman tugadi">
+      <created>1656503313926</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656503313927</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Admin panel qisman tugadi">
+      <created>1656591890276</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656591890276</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fitmax panel checkbox tugadi">
+      <created>1656613861966</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656613861966</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fitmax panel checkbox tugadi">
+      <created>1656615008006</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656615008006</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Edit qoldi :)">
+      <created>1656677071839</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656677071839</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Edit qoldi :)">
+      <created>1656765814144</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656765814144</updated>
+    </task>
+    <task id="LOCAL-00007" summary="About Company qilindi">
+      <created>1656841582704</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656841582704</updated>
+    </task>
+    <task id="LOCAL-00008" summary="progrmsga keldim qilindi">
+      <created>1656950885181</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1656950885181</updated>
+    </task>
+    <task id="LOCAL-00009" summary="progrms qilindi">
+      <created>1657030992237</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657030992237</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Faq , banners qilindi :)">
+      <created>1657105202827</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1657105202831</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Subscribe qilindi :)">
+      <created>1657107775435</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1657107775435</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Subscribe qilindi :)">
+      <created>1657133387182</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1657133387182</updated>
+    </task>
+    <task id="LOCAL-00013" summary="brends qilindi :)">
+      <created>1657195279390</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1657195279390</updated>
+    </task>
+    <task id="LOCAL-00014" summary="news qilindi :)">
+      <created>1657455088830</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1657455088830</updated>
+    </task>
+    <task id="LOCAL-00015" summary="menu qilindi :)">
+      <created>1657522677963</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1657522677963</updated>
+    </task>
+    <task id="LOCAL-00016" summary="modul qilindi :)">
+      <created>1657549170241</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1657549170241</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Admin panel qisman tugadi" />
+    <MESSAGE value="Fitmax panel checkbox tugadi" />
+    <MESSAGE value="Edit qoldi :)" />
+    <MESSAGE value="About Company qilindi" />
+    <MESSAGE value="progrmsga keldim qilindi" />
+    <MESSAGE value="progrms qilindi" />
+    <MESSAGE value="Faq , banners qilindi :)" />
+    <MESSAGE value="Subscribe qilindi :)" />
+    <MESSAGE value="brends qilindi :)" />
+    <MESSAGE value="news qilindi :)" />
+    <MESSAGE value="menu qilindi :)" />
+    <MESSAGE value="modul qilindi :)" />
+    <MESSAGE value="1 ta  qilindi :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 ta  qilindi :)" />
+  </component>
+</project>
