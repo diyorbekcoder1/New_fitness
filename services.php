@@ -16,6 +16,20 @@ if ($connect) {
 	$footer_menu = $db->query("select  name,link  from menus  order by id asc limit 4");
 	$nokis = $db->query("select image,title,bodytext from work_new  order by id desc limit 2");
 	$footerContact = $db->query("select  name,link  from menus ");
+    $servic = $db->query("select  image,title,title2,bodytext,image,name  from services  order by id DESC limit 3");
+
+    $header_servic = [];
+    if ($servic->num_rows > 0) {
+        while ($queryAll = $servic->fetch_object()) {
+            $header_servic[] = $queryAll;
+        }
+    }
+
+
+
+
+
+
 
 	$footer_twe = [];
 	if ($footerContact->num_rows > 0) {
@@ -238,33 +252,28 @@ if ($connect) {
 			<img src="assets/img/group-circle-2.svg" alt="img" class="crossfit-icon-1">
 			<img src="assets/img/line-red-1.svg" alt="img" class="crossfit-icon-2">
 			<img src="assets/img/tringle-about-top.svg" alt="img" class="crossfit-icon-3">
+
+
+
 			<h2 class="title-decor">Welcome To <span>Crossfit</span></h2>
 			<p class="slogan">Maecenas consequat ex id lobortis venenatis. Mauris id erat enim. Morbi dolor dolor, auctor tincidunt lorem ut, venenatis dapibus miq.</p>
 			<div class="row">
+
+                <?php foreach ($header_servic as $servics) : ?>
+
+
 				<div class="col-md-4 crossfit-col">
 					<div class="crossfit-item">
-						<img src="assets/img/serv-1.svg" alt="img">
-						<h3>body bulding</h3>
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-						<a class="btn" href="program.html">view Schedule</a>
+						<img  src="<?= $servics->image ?>" alt="img">
+						<h3><?= $servics->name ?></h3>
+						<p><?= substr($servics->bodytext, 0, 110) ?></p>
+						<a class="btn" href="trainer.php">view Schedule</a>
 					</div>
 				</div>
-				<div class="col-md-4 crossfit-col">
-					<div class="crossfit-item">
-						<img src="assets/img/serv-2.svg" alt="img">
-						<h3>group workouts</h3>
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-						<a class="btn" href="program.html">view Schedule</a>
-					</div>
-				</div>
-				<div class="col-md-4 crossfit-col">
-					<div class="crossfit-item">
-						<img src="assets/img/serv-3.svg" alt="img">
-						<h3>boxing</h3>
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-						<a class="btn" href="program.html">view Schedule</a>
-					</div>
-				</div>
+
+
+                <?php endforeach; ?>
+
 			</div>
 		</div>
 	</section>

@@ -202,7 +202,7 @@ $connect = new DB();
                         </li>
                         <li class="dropdown">
                             <a href="../admin/index.php" class="nav-link"><i data-feather="copy"></i><span>Home
-                                </span></a>
+                </span></a>
 
                         </li>
                         <li class="dropdown">
@@ -226,12 +226,18 @@ $connect = new DB();
                                 <li><a class="nav-link" href="./club_table.php">Club_card</a></li>
                                 <li><a class="nav-link" href="./progrms_table.php">Our_programs</a></li>
                                 <li><a class="nav-link" href="./banner_table.php">Bannners</a></li>
+                                <li><a class="nav-link" href="./menu_table.php">Menu</a></li>
 
                             </ul>
                         </li>
 
+
                         <li>
                             <a href="about_table.php"><i data-feather="pie-chart"></i><span>About_Company</span></a>
+
+                        </li>
+                        <li>
+                            <a href="NewTable.php"><i data-feather="alert-triangle"></i><span>News add</span></a>
 
                         </li>
 
@@ -241,12 +247,21 @@ $connect = new DB();
                             <a href="faq_table.php"><i data-feather="box"></i><span>Faqs_about</span></a>
 
                         </li>
+
                         <li>
-                            <a href="Email_table.php"><i data-feather="book"></i><span>Subscribe</span></a>
+                            <a href="Email_table.php"><i data-feather="copy"></i><span>Subscribe</span></a>
+
+                        </li>
+                        <li>
+                            <a href="modul_table.php"><i data-feather="book"></i><span>Moduls</span></a>
 
                         </li>
                         <li>
                             <a href="./brend_table.php"><i data-feather="sliders"></i><span>Brends</span></a>
+
+                        </li>
+                        <li>
+                            <a href="./servic_table.php"><i data-feather="home"></i><span>Services add</span></a>
 
                         </li>
 

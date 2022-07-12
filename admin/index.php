@@ -307,7 +307,7 @@ if ($connect) {
             </li>
 
             <li>
-              <a href="Email_table.php"><i data-feather="book"></i><span>Subscribe</span></a>
+              <a href="Email_table.php"><i data-feather="copy"></i><span>Subscribe</span></a>
 
             </li>
             <li>
@@ -318,7 +318,10 @@ if ($connect) {
               <a href="./brend_table.php"><i data-feather="sliders"></i><span>Brends</span></a>
 
             </li>
+              <li>
+                  <a href="./servic_table.php"><i data-feather="home"></i><span>Services add</span></a>
 
+              </li>
 
             <li class="dropdown">
               <a href="#" class="menu-toggle nav-link has-dropdown"><i data-feather="grid"></i><span>Tables</span></a>

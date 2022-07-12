@@ -215,86 +215,101 @@ if ($connect) {
           </li>
         </ul>
       </nav>
-      <div class="main-sidebar sidebar-style-2">
-        <aside id="sidebar-wrapper">
-          <div class="sidebar-brand">
-            <a href="index.html"> <img alt="image" src="assets/img/logo.png" class="header-logo" /> <span class="logo-name">Otika</span>
-            </a>
-          </div>
-          <ul class="sidebar-menu">
-            <li class="menu-header">Main</li>
-            <li class="dropdown">
-              <a href="/index.php" class="nav-link"><i data-feather="monitor"></i><span>Fitmax</span></a>
-            </li>
-            <li class="dropdown">
-              <a href="../admin/index.php" class="nav-link"><i data-feather="copy"></i><span>Home
+        <div class="main-sidebar sidebar-style-2">
+            <aside id="sidebar-wrapper">
+                <div class="sidebar-brand">
+                    <a href="index.html"> <img alt="image" src="assets/img/logo.png" class="header-logo" /> <span class="logo-name">Otika</span>
+                    </a>
+                </div>
+                <ul class="sidebar-menu">
+                    <li class="menu-header">Main</li>
+                    <li class="dropdown">
+                        <a href="/index.php" class="nav-link"><i data-feather="monitor"></i><span>Fitmax</span></a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="../admin/index.php" class="nav-link"><i data-feather="copy"></i><span>Home
                 </span></a>
 
-            </li>
-            <li class="dropdown">
-              <a href="portfolio.php"><i data-feather="command"></i><span>Gallery</span></a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="portfolio.php"><i data-feather="command"></i><span>Gallery</span></a>
 
-            </li>
-            <li>
-              <a href="auth-register.php"><i data-feather="user-check"></i><span>Register</span></a>
+                    </li>
+                    <li>
+                        <a href="auth-register.php"><i data-feather="user-check"></i><span>Register</span></a>
 
-            </li>
+                    </li>
 
-            <li>
-              <a href="ContactsaAbout.php"><i data-feather="mail"></i><span>Contact</span></a>
+                    <li>
+                        <a href="ContactsaAbout.php"><i data-feather="mail"></i><span>Contact</span></a>
 
-            </li>
+                    </li>
 
-            <li class="dropdown">
-              <a href="#" class="menu-toggle nav-link has-dropdown"><i data-feather="settings"></i><span>Settings</span></a>
-              <ul class="dropdown-menu">
-                <li><a class="nav-link" href="settinges.php">Logo</a></li>
-                <li><a class="nav-link" href="./club_table.php">Club_card</a></li>
-                <li><a class="nav-link" href="./progrms_table.php">Our_programs</a></li>
-                <li><a class="nav-link" href="./banner_table.php">Bannners</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="menu-toggle nav-link has-dropdown"><i data-feather="settings"></i><span>Settings</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="nav-link" href="settinges.php">Logo</a></li>
+                            <li><a class="nav-link" href="./club_table.php">Club_card</a></li>
+                            <li><a class="nav-link" href="./progrms_table.php">Our_programs</a></li>
+                            <li><a class="nav-link" href="./banner_table.php">Bannners</a></li>
+                            <li><a class="nav-link" href="./menu_table.php">Menu</a></li>
 
-              </ul>
-            </li>
-
-            <li>
-              <a href="about_table.php"><i data-feather="pie-chart"></i><span>About_Company</span></a>
-
-            </li>
+                        </ul>
+                    </li>
 
 
+                    <li>
+                        <a href="about_table.php"><i data-feather="pie-chart"></i><span>About_Company</span></a>
 
-            <li>
-              <a href="faq_table.php"><i data-feather="box"></i><span>Faqs_about</span></a>
+                    </li>
+                    <li>
+                        <a href="NewTable.php"><i data-feather="alert-triangle"></i><span>News add</span></a>
 
-            </li>
-            <li>
-              <a href="Email_table.php"><i data-feather="book"></i><span>Subscribe</span></a>
-
-            </li>
-            <li>
-              <a href="./brend_table.php"><i data-feather="sliders"></i><span>Brends</span></a>
-
-            </li>
-
-            <li class="dropdown">
-              <a href="#" class="menu-toggle nav-link has-dropdown"><i data-feather="grid"></i><span>Tables</span></a>
-              <ul class="dropdown-menu">
-                <li><a class="nav-link" href="./trainers_table.php">Trainers</a></li>
-                <li><a class="nav-link" href="advance-table.php">Sports Type</a></li>
-                <li><a class="nav-link" href="./Admin_table.php">Admins</a></li>
-
-              </ul>
-            </li>
+                    </li>
 
 
 
+                    <li>
+                        <a href="faq_table.php"><i data-feather="box"></i><span>Faqs_about</span></a>
+
+                    </li>
+
+                    <li>
+                        <a href="Email_table.php"><i data-feather="copy"></i><span>Subscribe</span></a>
+
+                    </li>
+                    <li>
+                        <a href="modul_table.php"><i data-feather="book"></i><span>Moduls</span></a>
+
+                    </li>
+                    <li>
+                        <a href="./brend_table.php"><i data-feather="sliders"></i><span>Brends</span></a>
+
+                    </li>
+                    <li>
+                        <a href="./servic_table.php"><i data-feather="home"></i><span>Services add</span></a>
+
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="menu-toggle nav-link has-dropdown"><i data-feather="grid"></i><span>Tables</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="nav-link" href="./trainers_table.php">Trainers</a></li>
+                            <li><a class="nav-link" href="advance-table.php">Sports Type</a></li>
+                            <li><a class="nav-link" href="./Admin_table.php">Admins</a></li>
+
+                        </ul>
+                    </li>
 
 
 
 
-          </ul>
-        </aside>
-      </div>
+
+
+
+                </ul>
+            </aside>
+        </div>
       <!-- Main Content -->
       <div class="main-content">
         <section class="section">
