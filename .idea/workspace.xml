@@ -4,54 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df343939-eeea-462c-8cd4-90e48bd78c18" name="Changes" comment="1 ta  qilindi :)">
-      <change afterPath="$PROJECT_DIR$/admin/php/servicCreate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/php/servicDelete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/servic_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/servis_create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ccfe46ca-640b-4840-ba5d-86162c80ee77.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ccfe46ca-640b-4840-ba5d-86162c80ee77.xml" afterDir="false" />
+    <list default="true" id="df343939-eeea-462c-8cd4-90e48bd78c18" name="Changes" comment=" qilindi :)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Admin_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Admin_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Club_cards.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Club_cards.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Contactedit.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Contactedit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Contacts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ContactsaAbout.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ContactsaAbout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Email_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Email_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/NewTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/NewTable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/about_company.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/about_company.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/about_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/about_edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/about_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/about_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/advance-table.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/advance-table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/banner_create.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/banner_create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/banner_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/banner_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/brand_create.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/brand_create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/brend_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/brend_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/club_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/club_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/create_sport.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/create_sport.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/create_triner.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/create_triner.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/edit_sport.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/edit_sport.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/edit_triner.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/edit_triner.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/faq_create.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/faq_create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/faq_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/faq_edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/faq_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/faq_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/menu_create.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/menu_create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/menu_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/menu_edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/menu_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/menu_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/modul_create.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/modul_create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/modul_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/modul_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/newEdit.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/newEdit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/new_create.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/new_create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/portfolio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/program_create.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/program_create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/program_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/program_edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/progrms_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/progrms_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/settinges.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/settinges.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/settings_Edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/settings_Edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/settings_create.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/settings_create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/trainers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/trainers_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/update_sport.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/update_sport.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/trainer.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +82,7 @@
       <workItem from="1657434615243" duration="2202000" />
       <workItem from="1657437159889" duration="16965000" />
       <workItem from="1657513417844" duration="18715000" />
-      <workItem from="1657551490032" duration="7845000" />
+      <workItem from="1657551490032" duration="8709000" />
     </task>
     <task id="LOCAL-00001" summary="Admin panel qisman tugadi">
       <created>1656503313926</created>
@@ -238,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657549170241</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary=" qilindi :)">
+      <created>1657601029420</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1657601029421</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +234,7 @@
     <MESSAGE value="menu qilindi :)" />
     <MESSAGE value="modul qilindi :)" />
     <MESSAGE value="1 ta  qilindi :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 ta  qilindi :)" />
+    <MESSAGE value=" qilindi :)" />
+    <option name="LAST_COMMIT_MESSAGE" value=" qilindi :)" />
   </component>
 </project>
