@@ -334,6 +334,55 @@ $connect = new DB();
                                             </div>
 
                                             <div class="form-group row mb-4">
+                                                <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Telegram</label>
+                                                <div class="col-sm-12 col-md-7">
+                                                    <input type="text" name="icon1" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row mb-4">
+                                                <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Link</label>
+                                                <div class="col-sm-12 col-md-7">
+                                                    <input type="text" name="link1" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row mb-4">
+                                                <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Instagram</label>
+                                                <div class="col-sm-12 col-md-7">
+                                                    <input type="text" name="icon2" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row mb-4">
+                                                <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Link</label>
+                                                <div class="col-sm-12 col-md-7">
+                                                    <input type="text" name="link2" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row mb-4">
+                                                <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Facebook</label>
+                                                <div class="col-sm-12 col-md-7">
+                                                    <input type="text" name="icon3" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row mb-4">
+                                                <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Link</label>
+                                                <div class="col-sm-12 col-md-7">
+                                                    <input type="text" name="link3" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row mb-4">
+                                                <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3">You_Tube</label>
+                                                <div class="col-sm-12 col-md-7">
+                                                    <input type="text" name="icon4" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row mb-4">
+                                                <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Link</label>
+                                                <div class="col-sm-12 col-md-7">
+                                                    <input type="text" name="link4" class="form-control">
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row mb-4">
                                                 <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3"></label>
                                                 <div class="col-sm-12 col-md-7">
                                                     <button class="btn btn-primary">Create Post</button>

@@ -8,6 +8,14 @@ if ($connect) {
         $title = $_POST['title'] == '' ? null : $_POST['title'];
         $phone = $_POST['phone'] == '' ? null : $_POST['phone'];
         $email = $_POST['email'] == '' ? null : $_POST['email'];
+        $icon1 = $_POST['icon1'] == '' ? null : $_POST['icon1'];
+        $icon2 = $_POST['icon2'] == '' ? null : $_POST['icon2'];
+        $icon3 = $_POST['icon3'] == '' ? null : $_POST['icon3'];
+        $icon4 = $_POST['icon4'] == '' ? null : $_POST['icon4'];
+        $link1 = $_POST['link1'] == '' ? null : $_POST['link1'];
+        $link2 = $_POST['link2'] == '' ? null : $_POST['link2'];
+        $link3 = $_POST['link3'] == '' ? null : $_POST['link3'];
+        $link4 = $_POST['link4'] == '' ? null : $_POST['link4'];
         $bodytext = $_POST['bodytext'] == '' ? null : $_POST['bodytext'];
         $image = $_FILES['image'];
         if (isset($_FILES['image'])) {
@@ -53,8 +61,8 @@ if ($connect) {
         }
 
         if ($title && $path2 && $bodytext && $email && $phone ) {
-            $news = $db->query("INSERT INTO about_com (title,image,bodytext,email,phone) values
-             (  \"$title\",\"$path2\",\"$bodytext\",\"$email\",\"$phone\" )");
+            $news = $db->query("INSERT INTO about_com (title,image,bodytext,email,phone,icon1,icon2,icon3,icon4,link1,link2,link3,link4) values
+             (  \"$title\",\"$path2\",\"$bodytext\",\"$email\",\"$phone\",\"$icon1\",\"$icon2\",\"$icon3\",\"$icon4\",\"$link1\",\"$link2\",\"$link3\",\"$link4\" )");
             if ($news) {
                 header("Location: ../about_table.php");
             } else {
