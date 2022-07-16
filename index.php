@@ -30,11 +30,6 @@ if ($connect) {
     }
 
 
-
-
-
-
-
     $footer_images = [];
     if ($footer_image->num_rows > 0) {
         while ($queryAll = $footer_image->fetch_object()) {
@@ -44,32 +39,12 @@ if ($connect) {
 
 
 
-
-
-
-
-
-
     $menus_about = [];
     if ($menus->num_rows > 0) {
         while ($queryAll = $menus->fetch_object()) {
             $menus_about[] = $queryAll;
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     $News_abouts = [];
     if ($News_bannaer->num_rows > 0) {

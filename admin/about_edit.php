@@ -15,7 +15,7 @@ if ($connect) {
                 $aboute_comany[] = $queryAll;
             }
         }
-        $cate3 = $db->query("select id ,image,phone,email,bodytext,title from about_com");
+        $cate3 = $db->query("select id, title, phone, link2, link1, link4, link3, email, icon3, icon4, icon1, icon2, bodytext, image from about_com");
         if ($cate3->num_rows > 0) {
             while ($queryAll = $cate3->fetch_object()) {
                 $Company[] = $queryAll;
@@ -338,7 +338,7 @@ if ($connect) {
                                             <div class="form-group row mb-4">
                                                 <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Content</label>
                                                 <div class="col-sm-12 col-md-7">
-                                                    <textarea type="text" name="bodytext" id="bodytext" value="<?= $Company->bodytext ?? ' ' ?>" class="summernote-simple"></textarea>
+                                                    <textarea type="text" name="bodytext" id="bodytext"  class="summernote-simple"><?= $Company->bodytext ?? ' ' ?></textarea>
                                                 </div>
                                             </div>
                                             <div class="form-group row mb-4">
@@ -348,6 +348,54 @@ if ($connect) {
                                                         <label for="image-upload" id="image-label">Choose File</label>
                                                         <input type="file" name="image" id="image-upload" />
                                                     </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row mb-4">
+                                                <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Telegram</label>
+                                                <div class="col-sm-12 col-md-7">
+                                                    <input type="text" name="icon1" value="<?= $Company->icon1 ?? ' ' ?>" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row mb-4">
+                                                <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Link</label>
+                                                <div class="col-sm-12 col-md-7">
+                                                    <input type="text" name="link1" value="<?= $Company->link1 ?? ' ' ?>" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row mb-4">
+                                                <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Instagram</label>
+                                                <div class="col-sm-12 col-md-7">
+                                                    <input type="text" name="icon2" value="<?= $Company->icon2 ?? ' ' ?>" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row mb-4">
+                                                <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Link</label>
+                                                <div class="col-sm-12 col-md-7">
+                                                    <input type="text" name="link2"  value="<?= $Company->link2 ?? ' ' ?>" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row mb-4">
+                                                <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Facebook</label>
+                                                <div class="col-sm-12 col-md-7">
+                                                    <input type="text" name="icon3" value="<?= $Company->icon3 ?? ' ' ?>" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row mb-4">
+                                                <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Link</label>
+                                                <div class="col-sm-12 col-md-7">
+                                                    <input type="text" name="link3" value="<?= $Company->link3 ?? ' ' ?>" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row mb-4">
+                                                <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3">You_Tube</label>
+                                                <div class="col-sm-12 col-md-7">
+                                                    <input type="text" name="icon4" value="<?= $Company->icon4 ?? ' ' ?>" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row mb-4">
+                                                <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Link</label>
+                                                <div class="col-sm-12 col-md-7">
+                                                    <input type="text" name="link4" value="<?= $Company->link4 ?? ' ' ?>" class="form-control">
                                                 </div>
                                             </div>
 

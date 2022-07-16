@@ -307,8 +307,52 @@ if (!isset($_SESSION['is_login'])) {
                                                 <label>Address</label>
                                                 <input type="text" name="address" class="form-control">
                                             </div>
+                                             <div style="text-align: center;font-size: 20px;"><P>Social network</P></div>
+                                            <div  class="row ">
+                                                <div class="form-group col-6 ">
+                                                    <label>Telegram</label>
+                                                    <input type="text" name="icon1" class="form-control">
+                                                </div>
+                                                <div class="form-group col-6 ">
+                                                    <label>Link</label>
+                                                    <input type="text" name="link1" class="form-control">
+                                                </div>
 
-                                            <div class="checkbox-wrap">
+                                            </div>
+                                            <div  class="row ">
+                                                <div class="form-group col-6 ">
+                                                    <label>Instagram</label>
+                                                    <input type="text" name="icon2" class="form-control">
+                                                </div>
+                                                <div class="form-group col-6 ">
+                                                    <label>Link</label>
+                                                    <input type="text" name="link2" class="form-control">
+                                                </div>
+
+                                            </div>
+                                            <div  class="row ">
+                                                <div class="form-group col-6 ">
+                                                    <label>Facebook</label>
+                                                    <input type="text" name="icon3" class="form-control">
+                                                </div>
+                                                <div class="form-group col-6 ">
+                                                    <label>Link</label>
+                                                    <input type="text" name="link3" class="form-control">
+                                                </div>
+
+                                            </div>
+                                              <div  class="row ">
+                                                <div class="form-group col-6 ">
+                                                    <label>You_Tube</label>
+                                                    <input type="text" name="icon4" class="form-control">
+                                                </div>
+                                                <div class="form-group col-6 ">
+                                                    <label>Link</label>
+                                                    <input type="text" name="link4" class="form-control">
+                                                </div>
+
+                                              </div>
+                                          <div class="checkbox-wrap">
                                                 <div class="checkbox-cover">
                                                     <input style="width: 17px;height: 17px" type="checkbox" name="agreement">
                                                     <div>

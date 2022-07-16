@@ -16,7 +16,7 @@ if ($connect) {
                 $old[] = $queryAll;
             }
         }
-        $agree = $db->query("select id,name,phone,email,address from contacts2 ");
+        $agree = $db->query("select id, name, icon1, link1, phone, email, address, icon2, icon3, icon4, link2, link3, link4 from contacts2 ");
         if ($agree->num_rows > 0) {
             while ($queryAll = $agree->fetch_object()) {
                 $ruls[] = $queryAll;
@@ -325,6 +325,51 @@ if ($connect) {
                                             <div class="form-group">
                                                 <label>Address</label>
                                                 <input type="text" name="address" id="address" value="<?= $contacts5->address ?? '' ?>" class="form-control">
+                                            </div>
+                                            <div style="text-align: center;font-size: 20px;"><P>Social network</P></div>
+                                            <div  class="row ">
+                                                <div class="form-group col-6 ">
+                                                    <label>Telegram</label>
+                                                    <input type="text" name="icon1" value="<?= $contacts5->icon1 ?? '' ?>" class="form-control">
+                                                </div>
+                                                <div class="form-group col-6 ">
+                                                    <label>Link</label>
+                                                    <input type="text" name="link1" value="<?= $contacts5->link1 ?? '' ?>" class="form-control">
+                                                </div>
+
+                                            </div>
+                                            <div  class="row ">
+                                                <div class="form-group col-6 ">
+                                                    <label>Instagram</label>
+                                                    <input type="text" name="icon2" value="<?= $contacts5->icon2 ?? '' ?>" class="form-control">
+                                                </div>
+                                                <div class="form-group col-6 ">
+                                                    <label>Link</label>
+                                                    <input type="text" name="link2 " value="<?= $contacts5->link2 ?? '' ?>" class="form-control">
+                                                </div>
+
+                                            </div>
+                                            <div  class="row ">
+                                                <div class="form-group col-6 ">
+                                                    <label>Facebook</label>
+                                                    <input type="text" name="icon3" value="<?= $contacts5->icon3 ?? '' ?>" class="form-control">
+                                                </div>
+                                                <div class="form-group col-6 ">
+                                                    <label>Link</label>
+                                                    <input type="text" name="link3" value="<?= $contacts5->link3 ?? '' ?>" class="form-control">
+                                                </div>
+
+                                            </div>
+                                            <div  class="row ">
+                                                <div class="form-group col-6 ">
+                                                    <label>You_Tube</label>
+                                                    <input type="text" name="icon4" value="<?= $contacts5->icon4 ?? '' ?>" class="form-control">
+                                                </div>
+                                                <div class="form-group col-6 ">
+                                                    <label>Link</label>
+                                                    <input type="text" name="link4" value="<?= $contacts5->link4 ?? '' ?>" class="form-control">
+                                                </div>
+
                                             </div>
 
                                             <div class="checkbox-wrap">

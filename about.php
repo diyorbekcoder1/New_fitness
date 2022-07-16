@@ -16,7 +16,7 @@ if ($connect) {
 	$footer_menu = $db->query("select  name,link  from menus  order by id asc limit 4");
 	$nokis = $db->query("select image,title,bodytext from work_new  order by id desc limit 2");
 	$footerContact = $db->query("select  name,link  from menus ");
-    $IconFooter = $db->query("select  icon1,icon2,icon3,icon4,link1,link2,link3,link4  from about_com order by id asc limit 1 ");
+    $IconFooter = $db->query("select  icon1,icon2,icon3,icon4,link1,link2,link3,link4  from about_com order by id desc limit 1 ");
 
 
     $icon_logo = [];
@@ -313,10 +313,16 @@ if ($connect) {
 								<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:fitmax@gmail.com"><?= $About_headers->email ?></a></li>
 							</ul>
 							<ul class="social-list">
-								<li><a target="_blank" href="https://www.facebook.com/rovadex"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li><a target="_blank" href="https://twitter.com/RovadexStudio"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								<li><a target="_blank" href="https://www.youtube.com/"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-								<li><a target="_blank" href="https://www.instagram.com/rovadex"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+
+                                <?php if (isset($icon_logo)) {
+                                    foreach ($icon_logo as $cont) { ?>
+                                        <li><a target="_blank" href="<?=$cont->link1 ?>"><i class="<?=$cont->icon1 ?>" ></i></a></li>
+                                        <li><a target="_blank" href="<?=$cont->link2 ?>"><i class="<?=$cont->icon2 ?>" aria-hidden="true"></i></a></li>
+                                        <li><a target="_blank" href="<?=$cont->link3 ?>"><i class="<?=$cont->icon3 ?>" aria-hidden="true"></i></a></li>
+                                        <li><a target="_blank" href="<?=$cont->link4 ?>"><i class="<?=$cont->icon4 ?>" aria-hidden="true"></i></a></li>
+
+                                    <?php }
+                                } ?>
 							</ul>
 						</div>
 
@@ -605,15 +611,10 @@ if ($connect) {
 
 
 					<ul class="social-list">
-                        <?php if (isset($icon_logo)) {
-                        foreach ($icon_logo as $cont) { ?>
-						<li><a target="_blank" href="<?=$cont->link1 ?>"><i class="<?=$cont->icon1 ?>" aria-hidden="true"></i></a></li>
-						<li><a target="_blank" href="<?=$cont->link2 ?>"><i class="<?=$cont->icon2 ?>" aria-hidden="true"></i></a></li>
-						<li><a target="_blank" href="<?=$cont->link3 ?>"><i class="<?=$cont->icon3 ?>" aria-hidden="true"></i></a></li>
-						<li><a target="_blank" href="<?=$cont->link4 ?>"><i class="<?=$cont->icon4 ?>" aria-hidden="true"></i></a></li>
-
-                        <?php }
-                        } ?>
+                        <li><a target="_blank" href="https://www.facebook.com/rovadex"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a target="_blank" href="https://twitter.com/RovadexStudio"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a target="_blank" href="https://www.youtube.com/"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                        <li><a target="_blank" href="https://www.instagram.com/rovadex"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 
 					</ul>
 				</div>

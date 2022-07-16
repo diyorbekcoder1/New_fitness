@@ -8,8 +8,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/ccfe46ca-640b-4840-ba5d-86162c80ee77.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ccfe46ca-640b-4840-ba5d-86162c80ee77.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/about_company.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/about_company.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/php/aboutCreate.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/php/aboutCreate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/Contactedit.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Contactedit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/Contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Contacts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/about_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/about_edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/php/ContactsEdit.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/php/ContactsEdit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/php/Contactscreate.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/php/Contactscreate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/php/aboutEdit.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/php/aboutEdit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +89,9 @@
       <workItem from="1657513417844" duration="18715000" />
       <workItem from="1657551490032" duration="9788000" />
       <workItem from="1657824093358" duration="3484000" />
+      <workItem from="1657869177213" duration="446000" />
+      <workItem from="1657966916196" duration="652000" />
+      <workItem from="1657992489057" duration="5128000" />
     </task>
     <task id="LOCAL-00001" summary="Admin panel qisman tugadi">
       <created>1656503313926</created>
@@ -211,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657601908395</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary=" qilindi :)">
+      <created>1657869614338</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1657869614339</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
