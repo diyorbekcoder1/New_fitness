@@ -21,6 +21,17 @@ if ($connect) {
     $menus = $db->query("SELECT link,name,icon FROM menus ");
     $footer_image = $db->query("select image,title,bodytext from work_new  order by id desc limit 1");
     $logos = $db->query("select title2,bodytext from logotips  order by id desc limit 1");
+    $nessen = $db->query("select  icon1,icon2,icon3,icon4,link1,link2,link3,link4  from contacts2 order by id desc limit 1 ");
+
+
+    $nessen_header = [];
+    if ($nessen->num_rows > 0) {
+        while ($queryAll = $nessen->fetch_object()) {
+            $nessen_header[] = $queryAll;
+        }
+    }
+
+
 
     $logos_header = [];
     if ($logos->num_rows > 0) {
@@ -672,9 +683,18 @@ if ($connect) {
                                             <p style="font-size: 40px"><?= $logotips->name ?> </p>
                                         </a></div>
                         </div>
+                        <ul class="social-list">
+                            <?php if (isset($nessen_header)) {
+                            foreach ($nessen_header as $logotips) { ?>
+                                <li><a target="_blank" href="<?=$logotips->link1 ?>"><i class="<?=$logotips->icon1 ?>" ></i></a></li>
+                                <li><a target="_blank" href="<?=$logotips->link2 ?>"><i class="<?=$logotips->icon2 ?>" aria-hidden="true"></i></a></li>
+                                <li><a target="_blank" href="<?=$logotips->link3 ?>"><i class="<?=$logotips->icon3 ?>" aria-hidden="true"></i></a></li>
+                                <li><a target="_blank" href="<?=$logotips->link4 ?>"><i class="<?=$logotips->icon4 ?>" aria-hidden="true"></i></a></li></li>
+                            <?php }
+                            } ?>
+                        </ul>
 
-
-                <?php }
+                              <?php }
                             } ?>
                     </div>
                 </div>

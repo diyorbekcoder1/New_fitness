@@ -17,7 +17,15 @@ if ($connect) {
 	$nokis = $db->query("select image,title,bodytext from work_new  order by id desc limit 2");
 	$footerContact = $db->query("select  name,link  from menus ");
     $servic = $db->query("select  image,title,title2,bodytext,image,name  from services  order by id DESC limit 3");
+    $nessen = $db->query("select  icon1,icon2,icon3,icon4,link1,link2,link3,link4  from contacts2 order by id desc limit 1 ");
 
+
+    $nessen_header = [];
+    if ($nessen->num_rows > 0) {
+        while ($queryAll = $nessen->fetch_object()) {
+            $nessen_header[] = $queryAll;
+        }
+    }
     $header_servic = [];
     if ($servic->num_rows > 0) {
         while ($queryAll = $servic->fetch_object()) {
@@ -179,10 +187,14 @@ if ($connect) {
 						<button type="submit" class="search-form__submit"><i class="fa fa-search" aria-hidden="true"></i></button>
 					</form>
 					<ul class="social-list">
-						<li><a target="_blank" href="https://www.facebook.com/rovadex"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a target="_blank" href="https://twitter.com/RovadexStudio"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li><a target="_blank" href="https://www.youtube.com/"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-						<li><a target="_blank" href="https://www.instagram.com/rovadex"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <?php if (isset($nessen_header)) {
+                            foreach ($nessen_header as $logotips) { ?>
+                                <li><a target="_blank" href="<?=$logotips->link1 ?>"><i class="<?=$logotips->icon1 ?>" ></i></a></li>
+                                <li><a target="_blank" href="<?=$logotips->link2 ?>"><i class="<?=$logotips->icon2 ?>" aria-hidden="true"></i></a></li>
+                                <li><a target="_blank" href="<?=$logotips->link3 ?>"><i class="<?=$logotips->icon3 ?>" aria-hidden="true"></i></a></li>
+                                <li><a target="_blank" href="<?=$logotips->link4 ?>"><i class="<?=$logotips->icon4 ?>" aria-hidden="true"></i></a></li></li>
+                            <?php }
+                        } ?>
 						<li class="header-cont ">
 							<a href="admin/auth-login.php"><i class="fa fa-user-circle" aria-hidden="true"></i></a>
 						</li>
