@@ -546,11 +546,15 @@ if ($connect) {
 					</div>
 
 					<ul class="social-list">
-						<li><a target="_blank" href="https://www.facebook.com/rovadex"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a target="_blank" href="https://twitter.com/RovadexStudio"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li><a target="_blank" href="https://www.youtube.com/"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-						<li><a target="_blank" href="https://www.instagram.com/rovadex"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-					</ul>
+                        <?php if (isset($nessen_header)) {
+                        foreach ($nessen_header as $logotips) { ?>
+                        <li><a target="_blank" href="<?=$logotips->link1 ?>"><i class="<?=$logotips->icon1 ?>" ></i></a></li>
+                        <li><a target="_blank" href="<?=$logotips->link2 ?>"><i class="<?=$logotips->icon2 ?>" aria-hidden="true"></i></a></li>
+                        <li><a target="_blank" href="<?=$logotips->link3 ?>"><i class="<?=$logotips->icon3 ?>" aria-hidden="true"></i></a></li>
+                        <li><a target="_blank" href="<?=$logotips->link4 ?>"><i class="<?=$logotips->icon4 ?>" aria-hidden="true"></i></a></li></li>
+                        <?php }
+                        } ?></a>
+                    </ul>
 				</div>
 				<div class="col-md-2 footer-item footer-item-link">
 					<h3>Links</h3>
